@@ -33,10 +33,6 @@ DSA-in-C/
 | 1 | Time Complexity Basics (O(1), O(n), O(n²)) | ✅ Done |[notes](notes.md)|
 | 2 | Linear Search | ✅ Done | [notes](notes.md) · [code](linear_search.c)
 | 3 | Binary Search | ✅ Done | [notes](notes.md) · [code](binary_search.c)
-| 4 | Bubble / Selection / Insertion Sort | ⬜ Upcoming | — |
-| 5 | Recursion Basics | ⬜ Upcoming | — |
-| 6 | Arrays (2D, Prefix Sums) | ⬜ Upcoming | — |
-| 7 | Linked Lists | ⬜ Upcoming | — |
 
 *(I'll keep updating this table as I move through topics.)*
 
