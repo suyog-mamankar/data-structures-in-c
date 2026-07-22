@@ -21,7 +21,9 @@ DSA-in-C/
 └── searching/
     ├── notes.md
     ├── linear_search.c
-    └── binary_search.c
+    ├── binary_search.c
+    ├── practice_linear_search.c
+    └── practice_binary_search.c
 ```
 
 ---
@@ -33,8 +35,30 @@ DSA-in-C/
 | 1 | Time Complexity Basics (O(1), O(n), O(n²)) | ✅ Done |[notes](notes.md)|
 | 2 | Linear Search | ✅ Done | [notes](notes.md) · [code](linear_search.c)
 | 3 | Binary Search | ✅ Done | [notes](notes.md) · [code](binary_search.c)
+| 4 | Linear Search — Practice Problems | ✅ Done | [code](practice_linear_search.c)
+| 5 | Binary Search — Practice Problems | ✅ Done | [code](practice_binary_search.c)
 
 *(I'll keep updating this table as I move through topics.)*
+
+---
+
+## 📝 Practice Problems
+
+Once the basic search was working, I added a menu-driven practice file per topic to try out common variations asked in interviews:
+
+**`practice_linear_search.c`**
+- Find the first occurrence of a key
+- Find the last occurrence of a key
+- Count how many times a key occurs
+- Find the largest element
+- Find the smallest element
+
+**`practice_binary_search.c`**
+- Standard iterative binary search
+- Find the first occurrence of a key (with duplicates)
+- Find the last occurrence of a key (with duplicates)
+- Count occurrences of a key
+- Find floor and ceil of a key
 
 ---
 
@@ -48,6 +72,12 @@ gcc searching/linear_search.c -o linear_search
 
 gcc searching/binary_search.c -o binary_search
 ./binary_search
+
+gcc searching/practice_linear_search.c -o practice_linear_search
+./practice_linear_search
+
+gcc searching/practice_binary_search.c -o practice_binary_search
+./practice_binary_search
 ```
 
 ---
